@@ -1,0 +1,379 @@
+body{
+  
+    margin: 0;
+}
+header{
+    background: url(https://redeco.github.io/inclub/images/analysis/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+.logo{
+    margin-top: auto;
+}
+svg{
+    width: 9vw;
+}
+.list {
+    color: lightcoral;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    font-size: 1.8vw;
+}
+.phone{
+    margin: auto 0;
+    color: black;
+    font-size: 1.4vw;
+    font-family: cursive;
+}
+.action{
+    margin: auto 0;
+    
+}
+.action a{
+    color: lightcoral;
+    font-family: cursive;
+}
+.info{
+    padding-top: 13vw;
+}
+h4{
+    font-family: cursive;
+    font-size: 3vw;
+    padding-left: 1vw;
+    margin-block-start: 1vw;
+    color: lightcoral;
+    margin-block-end: 1vw;
+}
+.banner{
+    height: 59vw;
+}
+section{
+    margin: 0 auto;
+    width: 100%;
+}
+.info h3{
+    font-size: 4vw;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: lightcoral;
+    font-family: cursive;
+}
+.info p{
+    text-align: center;
+    font-size: 1.6vw;
+    width: 50%;
+    margin: 1.5vw auto;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+}
+.button {
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: lightcoral;;
+    font-family: 'Calibri';
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    padding: 0.1vw;
+    border-radius: 1vw;
+    box-shadow: 0px 1vw 0px rgba(150, 104, 98, 1), 0px 1vw 25px rgba(0,0,0,.7);
+    margin: 4vw auto;
+    text-align: center;
+    width: 11vw;
+    transition: all .1s ease;
+}
+    
+.button:active {
+    box-shadow: 0px 1vw 0px rgb(150 104 98), 0px 1vw 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 1vw;
+}
+@keyframes animatedBackground {
+    from { background-position: -100% 0; }
+    to { background-position: 100% 0; }
+  }
+.rs-transition {
+        width: 100%;
+        height: 2vw;
+        background: url(https://redeco.github.io/inclub/images/transition.svg);
+        background-size: contain;
+        background-repeat: repeat-x;
+        animation: animatedBackground 135s linear infinite;
+}
+.about p{
+    font-size: 1.3vw;
+    font-family: cursive;
+    text-align: center;
+    margin: 0vw auto;
+}
+.danil{
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    width: 50%;
+    margin-left: 13vw;
+}
+.danil2{
+    width: 50%;
+    margin-right: 8vw;
+}
+.about{
+    background: url(https://demo.themeum.com/html/triangle/1.1/images/home/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+img{
+    height: 12vw;
+}
+.about h4{
+    text-align: center;
+}
+
+
+
+/* dasdas */
+
+.container{
+    background: paleturquoise;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://almaweb.kz/wp-content/themes/alma/images/section-2-bg-1.png);
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position: left;
+    background-size: 38vw;
+}
+.taya{
+    display: inline-flex;
+}
+.container .card{
+    position: relative;
+    cursor: pointer;
+    width: 26%;
+}
+.content{
+    width: 100%;
+}
+.content ul{
+    width: 100%;
+    list-style-type: unset;
+    color: black;
+    font-family: cursive;
+    font-size: 1vw;
+    padding-inline-start: 3vw;
+}
+.container .card .face{
+    height: 13vw;
+    transition: 0.5s;
+}
+
+.container .card .face.face1{
+    position: relative;
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(4.8vw);
+}
+
+.container .card:hover .face.face1{
+    background: lightcoral;
+    transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+    max-width: 6.5vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.container .card .face.face1 .content h3{
+    margin: 0.7vw 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.container .card .face.face2{
+    position: relative;
+    background: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    box-sizing: border-box;
+    box-shadow: 0 2vw 50px rgb(0 0 0 / 80%);
+    transform: translateY(-8.2vw);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face.face2 .content a{
+    background: #333;
+    color: #fff;
+}
+
+/* some2 */
+
+.con{
+    background: paleturquoise;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://almaweb.kz/wp-content/themes/alma/images/section-3-bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17.4vw;
+}
+.naval{
+    width: 50%;
+    text-align: center;
+    background: rgb(129 129 129 / 10%);
+}
+.naval h3{
+    font-family: cursive;
+    font-size: 1.5vw;
+    color: lightcoral;
+}
+
+.naval p{
+    font-family: cursive;
+    color: lightcoral;
+    margin: 1vw 6.3vw;
+    font-size: 1vw;
+}
+
+/* cool */
+.FAQ{
+    background: paleturquoise;
+    padding-bottom: 2vw;
+}
+.FAQ h3{
+    font-family: cursive;
+    font-size: 2vw;
+    margin-block-start: 0;
+    padding-top: 1vw;
+    color: lightcoral;
+    text-align: center;
+}
+.accordion {
+    background: paleturquoise;
+    color: lightcoral;
+    cursor: pointer;
+    padding: 1.2vw;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: cursive;
+    font-size: 1.4vw;
+  }
+  .cont ul{
+    padding-inline-start: 2.7vw;
+    margin-block-start: 1.5vw;
+    margin-block-end: 1.5vw;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background: lightcyan;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .panel p{
+    font-family: cursive;
+    font-size: 1.1vw;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 1vw;
+    color: #777;
+    float: right;
+    margin-left: 0.9vw;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+/* footer */
+.bottom{
+    width: 100%;
+    height: 10vw;
+    background: darksalmon;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom svg{
+    margin: auto;
+    width: 13vw;
+}
+
+#numbers{
+    margin: 2.1vw auto;
+}
+.cont{
+    margin: auto;
+}
+.bottom h4{
+    color: white;
+    font-size: 1.5vw;
+    margin-block-start: 0;
+}
+
+.bottom li{
+    font-size: 1.1vw;
+    font-family: cursive;
+    color: white;
+}
+.bottom li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-family: cursive;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
